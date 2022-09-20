@@ -3,6 +3,9 @@ public class RPSSelector
     public static void main(String[] args)
     {
         String playerMove = "R"; //must be R, P, or S
+
+        playerMove.toUpperCase(); //forces user's input to be upper case
+
         //closed set can only be R, P, or S
         if(playerMove == "R")
         {
