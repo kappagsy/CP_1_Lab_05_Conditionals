@@ -7,11 +7,11 @@ public class RPSSelector
         playerMove.toUpperCase(); //forces user's input to be upper case
 
         //closed set can only be R, P, or S
-        if(playerMove == "R")
+        if(playerMove.equalsIgnoreCase("R"))
         {
             System.out.println("Rock!");
         }
-        else if (playerMove == "P")
+        else if (playerMove.equalsIgnoreCase("P"))
         {
             System.out.println("Paper!");
         }
@@ -20,15 +20,15 @@ public class RPSSelector
             System.out.println("Scissors!");
         }
         //open set can be R,P,S or anything else
-        if(playerMove == "R")
+        if(playerMove.equalsIgnoreCase("R"))
         {
             System.out.println("Rock!");
         }
-        else if (playerMove == "P")
+        else if (playerMove.equalsIgnoreCase("P"))
         {
             System.out.println("Paper!");
         }
-        else if (playerMove == "S")
+        else if (playerMove.equalsIgnoreCase("S"))
         {
             System.out.println("Scissors!");
         }
